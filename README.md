@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Repositorio para el desarrollo del bootcamp 10 de TSOFT.
 
 - Tutor1: Eduardo Araya
@@ -16,3 +15,4 @@
 - Jordan Jimenez
 - Pehuen Dias
 - Leonel Godoy
+- Fabricio Arias
