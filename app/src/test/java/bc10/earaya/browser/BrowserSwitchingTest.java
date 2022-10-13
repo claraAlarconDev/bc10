@@ -1,4 +1,4 @@
-package bc10.earaya;
+package bc10.earaya.browser;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
