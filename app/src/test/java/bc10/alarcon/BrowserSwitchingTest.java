@@ -40,17 +40,13 @@ public class BrowserSwitchingTest {
         driver.close();
         driver.switchTo().window(originalWindow);
         driver.close();
-
-        //driver.switchTo().window("window2");
-        //driver.findElement(By.id("window2"));
-        //driver.switchTo().window("window2");
         driver.switchTo().window(window2);
         driver.switchTo().newWindow(WindowType.TAB);
         driver.navigate().to("https:selenium.dev");
 
     }
-    @AfterEach
+    /*@AfterEach
     void close(){
         driver.quit();
-    }
+    }*/
 }
