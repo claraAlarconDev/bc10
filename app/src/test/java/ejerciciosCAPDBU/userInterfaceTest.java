@@ -16,11 +16,11 @@ public class userInterfaceTest {
     WebElement btnFBN;
     @FindBy(xpath="//*[@id='add']")
     WebElement btnAdd;
-    @FindBy(xpath = "//*[@id=\"main\"]/form/fieldset/div[1]/label")
+    @FindBy(xpath = "//*[@id='main']/form/fieldset/div[1]/label")
     WebElement divComputerName;
-    @FindBy(xpath="//*[@id=\"main\"]/form/fieldset/div[2]/label")
+    @FindBy(xpath="//*[@id='main']/form/fieldset/div[2]/label")
     WebElement divIntroduced;
-    @FindBy(xpath = "//*[@id=\"main\"]/form/fieldset/div[3]/label")
+    @FindBy(xpath = "//*[@id='main']/form/fieldset/div[3]/label")
     WebElement divDiscontinued;
     @FindBy(xpath = "//*[@id='main']/form/fieldset/div[4]/label")
     WebElement divCompany;
@@ -39,7 +39,7 @@ public class userInterfaceTest {
         btnFBN.click();
         Assertions.assertEquals("",btnFBN.getText());
         btnAdd.click();
-//Validamos la existencia y uso del btnAdd verificando la direccion del button con la del driver.
+    //Validamos la existencia y uso del btnAdd verificando la direccion del button con la del driver.
         Assertions.assertEquals("https://computer-database.gatling.io/computers/new",driver.getCurrentUrl());
         Assertions.assertEquals("Computer name", divComputerName.getText());
         Assertions.assertEquals("Introduced", divIntroduced.getText());
